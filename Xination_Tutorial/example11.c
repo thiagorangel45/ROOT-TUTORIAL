@@ -1,3 +1,6 @@
+// nesse exemplo, varios arquivos sao criados pois o limite de 500 passa em cada arquivo ROOT e logo depois é usado TChain
+// para juntar todos os arquivos.
+
 void example11()
 {
     TFile *file = new TFile("tiny.root", "RECREATE");
